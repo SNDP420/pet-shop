@@ -63,6 +63,7 @@
 
     <div class="detail-price-row">
       <span class="detail-price">Rs. <c:out value="${product.price}"/></span>
+      <span class="previous-price"><del>Rs. <c:out value="${product.price+1000}"/></del></span>
       <c:choose>
         <c:when test="${product.inStock}">
           <span class="stock-badge stock-badge--in"> In Stock (${product.stock} left)</span>

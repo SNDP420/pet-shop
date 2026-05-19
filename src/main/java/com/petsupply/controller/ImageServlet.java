@@ -31,7 +31,6 @@ public class ImageServlet extends HttpServlet {
             return;
         }
 
-        // Remove leading slash
         filename = filename.substring(1);
 
         String uploadPath = System.getProperty("user.home") + File.separator + "pet-supply-uploads";

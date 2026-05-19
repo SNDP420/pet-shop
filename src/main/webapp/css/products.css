@@ -150,10 +150,19 @@
 }
 
 .detail-price {
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-weight: 800;
   color: var(--color-primary);
 }
+/*
+
+.previous-price{
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: grey;
+}
+
+ */
 
 .detail-divider {
   height: 1px;

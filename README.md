@@ -58,8 +58,6 @@ pet-shop/
 │           ├── orderHistory.jsp # User's past orders
 │           └── orderDetail.jsp # Detailed order receipt view
 ├── pom.xml                     # Maven project configuration
-└── FLOWS.md                    # Detailed logic & architectural flows
-
 External Storage:
 └── ~/pet-supply-uploads/       # Permanent storage for uploaded product images
 ```
