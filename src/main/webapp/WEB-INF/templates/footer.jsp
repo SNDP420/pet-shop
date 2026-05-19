@@ -8,9 +8,15 @@
       </div>
       <div class="footer-links">
         <a href="${pageContext.request.contextPath}/home">Home</a>
+        <a href="${pageContext.request.contextPath}/about">About Us</a>
         <a href="${pageContext.request.contextPath}/products">Shop</a>
         <a href="${pageContext.request.contextPath}/login">Login</a>
         <a href="${pageContext.request.contextPath}/register">Register</a>
+      </div>
+      <div class="footer-contact" style="text-align: center; color: var(--color-muted); font-size: 0.9rem;">
+        <p style="margin-bottom: 0.5rem;">📧 <a href="mailto:demo@gmail.com">demo@gmail.com</a> &nbsp;|&nbsp; 📞 <a
+            href="tel:+9779800000000">+977 980-0000000</a></p>
+        <p>📍 Pokhara, Nepal, Street 4, XYZ</p>
       </div>
       <p class="footer-copy">&copy; 2026 Paw Furr-Ever </p>
     </div>

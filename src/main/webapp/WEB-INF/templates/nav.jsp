@@ -10,6 +10,8 @@
           <ul class="nav-links">
             <li><a href="${pageContext.request.contextPath}/home"
                 class="nav-link ${param.activeLink == 'home' ? 'nav-link--active' : ''}">Home</a></li>
+            <li><a href="${pageContext.request.contextPath}/about"
+                class="nav-link ${param.activeLink == 'about' ? 'nav-link--active' : ''}">About Us</a></li>
             <li><a href="${pageContext.request.contextPath}/products"
                 class="nav-link ${param.activeLink == 'shop' && empty selectedCategory ? 'nav-link--active' : ''}">Shop
                 All</a></li>
